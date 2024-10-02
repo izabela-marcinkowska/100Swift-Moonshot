@@ -25,7 +25,9 @@ struct MissionView: View {
                 fatalError("Missing \(member.name)")
             }
         }
+        print(crew)
     }
+    
     var body: some View {
         ScrollView {
             VStack {
